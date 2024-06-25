@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to left,green,rgb(17, 46, 17));
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align:justify
+   
+    
+
+}
+h1#preincipal{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3em;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: underline;
+
+}
+h1.seg01{
+    background-color: rgb(62, 107, 56);
+}
+h2.bas{
+    color: blue;
+}
+h2.int{
+    color: rgb(104, 122, 19);
+}
+h2.ava{
+    color: brown;
+}
