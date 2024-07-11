@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens de fundo</title>
+    <style>
+        body{
+            background-image: url(imagens/pattern004.png);
+        }
+        div.imagem{
+            border: 2px solid black;
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+            border-radius: 5px;
+
+        }
+        div#i1{
+            background-color: bisque;
+
+        }
+        div#i2{
+            background-image: linear-gradient(to right, blue, green)
+
+        }
+        div#i3{
+            background-image: url(imagens/pattern001.png);
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="imagem" id="i1">
+
+    </div>
+    <div class="imagem" id="i2">
+
+    </div>
+    <div class="imagem" id="i3">
+
+    </div>
+    
+</body>
+</html>
