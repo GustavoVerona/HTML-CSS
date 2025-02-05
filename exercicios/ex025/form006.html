@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Selecione uma cor</legend>
+                <label for="icor">Cor</label>
+                <input type="color" name="cor" id="icor">
+        </fieldset>
+        <fieldset>
+            <legend>Nível de satisfação</legend>
+            <label for="inivel">Niveís</label>
+            <input type="range" name="nivel" id="inivel" max="10" min="0">
+        </fieldset>
+        <fieldset>
+            <legend>Selecione um arquivo</legend>
+            <label for="iarq"></label>
+            <input type="file" name="arquivo" id="iarq">
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reset">
+    </form>
+    
+</body>
+</html>
